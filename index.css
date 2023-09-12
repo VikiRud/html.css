@@ -4,14 +4,17 @@ body {
 
 article {
 background-color:blueviolet;
-
 margin: 10px;
 border: 5px solid white;
 padding: 40px;
 width: 400px;
+display: inline-block;
 
+}
+img {
+    width: 100%;
 }
 
 #r {
-
+    
 }
