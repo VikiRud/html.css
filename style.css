@@ -1,16 +1,15 @@
 p {
-color: purple;
+    color: blue;
 }
 
-#red {
-    color: red;
+.red{
+color: red;
 }
 
-.green {
-    color: green;
-    font-size: 16px;
+.violet {
+color: violet;
 }
 
-#container {
-    width: 50%;
+#green {
+color: green;
 }
