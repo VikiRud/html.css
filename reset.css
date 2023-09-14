@@ -1,0 +1,19 @@
+.h-one {
+    margin-top: 1%;
+}
+.h-two {
+    margin-top: 2%;
+}
+.h-three {
+    margin-top: 1%;
+}
+
+.list {
+    list-style-image: url("./html/star_emphasis_regular_icon_203249.png")
+}
+section {
+    background: 100%;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
