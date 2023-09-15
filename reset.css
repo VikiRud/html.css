@@ -9,7 +9,8 @@
 }
 
 .list {
-    list-style-image: url("./html/star_emphasis_regular_icon_203249.png")
+    list-style: disc;
+    list-style-image: url(./html/star_emphasis_regular_icon_203249.png)
 }
 section {
     background: 100%;
