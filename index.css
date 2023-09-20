@@ -1,16 +1,28 @@
-.box {
-    background-color: violet;
-    width: 200px;
-    height: 200px;
-    border: 3px solid black;
-    padding: 20px;
-    margin: 20px;
-    display: inline;
-    border-radius: 50%;
+.one {
+    background-color: aqua;
+    position: relative;
+    top: 0;
 }
-#a {
-    background-color: black;
+.two {
+    background-color: bisque;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
-#b {
-    background-color: aquamarine;
+.three {
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.four {
+    background-color: brown;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
 }
