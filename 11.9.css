@@ -1,0 +1,14 @@
+
+.a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+.a:hover:not(section) {
+    background-color: aquamarine;
+    cursor: default;
+}
+.
