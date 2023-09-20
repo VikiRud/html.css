@@ -1,0 +1,13 @@
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid none;
+    background-color: green;
+}
+.box:nth-child(odd) {
+    background-color: red;
+}
+.box:nth-child(3n) {
+    background-color: blue;
+}
