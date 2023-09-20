@@ -1,28 +1,30 @@
 .one {
-    background-color: aqua;
-    position: relative;
+    
+    background-color: rgba(0, 0, 0, 0.462);
+    position: fixed;
     top: 0;
-}
-.two {
-    background-color: bisque;
-    position: fixed;
-    right: 0;
-    top: 0;
-}
-.three {
-    background-color: blueviolet;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-.four {
-    background-color: brown;
-    position: fixed;
     left: 0;
+    right: 0;
     bottom: 0;
+    text-align: center;
+    z-index: 1;
+    
 }
-div {
+.art {
+    position: fixed;
+    z-index: 2;
+    top: 45%;
+    left: 30%;
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+}
+.b {
+    margin-top: 40px;
     display: inline-block;
-    height: 100px;
-    width: 100px;
+}
+.a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
