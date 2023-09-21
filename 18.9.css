@@ -1,54 +1,15 @@
-.container {
+body {
     font-family: sans-serif;
-    color: white;
-    font-size: 0;
-    
 }
-.list-item {
-    display: inline-block;
-    list-style-type: none;
-    background-color: rgb(189, 84, 46);
-    padding: 10px 15px;
-    font-size: 1rem;
-    position: relative;
-    box-sizing: border-box;
+p {
+    color: blue;
 }
-.sub-list {
-    position: absolute;
-    left: 0;
-    padding: 1px;
-    background-color: rgb(189, 84, 46);
-    top: 100%;
-    display: none;
+p::first-line {
+    background-color: blanchedalmond;
 }
-.list-item:hover {
-    background-color: rgb(79, 29, 11);
-    cursor: pointer;
-}
-
-.sub-list-item {
-width: 100%;
-box-sizing: border-box;
-}
-.list-item:hover > .sub-list {
-    display: block;
-}
-.sub-two {
-    position: absolute;
-    top: 0;
-    position: absolute;
-    left: 100%;
-}
-.two {
-    width: 100%;
-    margin: 1px;
-    white-space: inherit;
-}
-.sub-two:hover > .two {
-    display: block;
-    box-sizing: border-box;
-}
-.sub-two:hover {
-    background-color: rgb(79, 29, 11);
-    cursor: pointer;
+li::first-letter {
+    color: red;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
 }
