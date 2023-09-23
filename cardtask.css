@@ -1,28 +1,66 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .card {
-    width: 300px;
-    height: 170px;
+    width: 350px;
+    height: 220px;
     border: 2px solid black;
     border-radius: 10px;
+    overflow: hidden;
+    border: none;
     padding: 20px;
     box-sizing: border-box;
     color: white;
-    font-family
+    font-family:Arial, Helvetica, sans-serif;
     background: rgb(110,205,233);
 background: linear-gradient(90deg, rgba(110,205,233,1) 13%, rgba(61,157,194,1) 100%, rgba(66,146,182,1) 100%, rgba(82,198,237,1) 100%);
 }
+.text {
+    margin-left: 10px;
+    font-weight: 500;
+}
 .one {
+    margin-top: 25px;
+    margin-bottom: 0;
+
 
 }
 .two {
-    font-size: 1.5em;
-    font-weight: 500;
+    font-size: 1.6em;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 .three {
 
 }
 .bubble {
+    border: 1px solid rgba(135, 207, 235, 0.257);
+    background-color: rgba(135, 207, 235, 0.425);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: relative;
 
 }
-svg {
+.first {
+    bottom: 220px;
+    left: 200px;
+}
+.second {
+    bottom: 280px;
+    left: 160px;
+}
+.svg {
     fill: white;
+    position: relative;
+    left: 280px;
+    bottom: 25px;
+    z-index: 1;
 }
